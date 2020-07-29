@@ -1,0 +1,47 @@
+{
+    "output_directory": "results/default",
+
+    "peers_number": 1000,
+    "hotspots_number": 50,
+
+    "initial_infected_number": 1,
+    "patching_begin_epoch": 100,
+
+    "map_size": {"x":1000, "y":1000},
+    "in_hotspots_probability": 0.9,
+
+    "infection_probability": 0.3,
+    "patch_probability": 0.001,
+
+    "epoch_limit": 1000,
+
+    "peer_radius": 2.5,
+    "hotspots_radius": 20,
+
+    "oss": [
+        {"name": "Android", "prop": 1},
+        {"name": "IOS", "prop": 0}
+    ],
+
+    "HtoH": 0.1,
+    "HtoT": 0.7,
+    "HtoE": 0.2,
+
+    "TtoH": 0.04,
+    "TtoT": 0.96,
+    "TtoE": 0,
+
+    "EtoH": 0.1,
+    "EtoT": 0,
+    "EtoE1": 0.45,
+    "EtoE2": 0.45,
+
+    "exploringSpeedMax": 20,
+    "travelingSpeedMax": 100,
+    "acceleration": 5,
+
+    "seed": 0,
+
+    "width": 947,
+    "ms": 16
+}

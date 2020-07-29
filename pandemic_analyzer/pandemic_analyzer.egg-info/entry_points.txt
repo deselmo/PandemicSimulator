@@ -1,0 +1,3 @@
+[console_scripts]
+pandemic_analyzer = pandemic_analyzer.__main__:main
+

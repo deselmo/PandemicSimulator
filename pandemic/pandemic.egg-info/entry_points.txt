@@ -1,0 +1,5 @@
+[console_scripts]
+pandemic = pandemic.cli:main
+pandemic-cli = pandemic.cli:main
+pandemic-gui = pandemic.gui:main
+
